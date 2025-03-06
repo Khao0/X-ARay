@@ -27,18 +27,22 @@ pip3 install -r requirements.txt
 ### Capture  
 **Press `C` button**  
 This feature allows users to capture only the Region of Interest (ROI), where the X-ray image is aligned with the hand. This enables users to analyze the captured image later.  
+<img src="Figs/overlay.png" alt="overlay">
 
 ### 1-Finger Shortcut  
 **Raise the left hand with the index finger extended**  
 This feature allows users to point at the ROI region with their index finger, displaying the formal name of the bone.  
+<img src="Figs/1fin.png" alt="1fin">
 
 ### 2-Finger Shortcut  
 **Raise the left hand with the index and middle fingers extended**  
 This feature decreases the opacity of the X-ray image, making it easier to analyze the ROI.  
+<img src="Figs/2fin.png" alt="2fin">
 
 ### 3-Finger Shortcut  
 **Raise the left hand with the index, middle, and ring fingers extended**  
 This feature increases the opacity of the X-ray image, enhancing the visibility of the ROI.  
+<img src="Figs/3fin.png" alt="3fin">
 
 
 
