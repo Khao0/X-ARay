@@ -30,7 +30,7 @@ This project allows users to input their raw X-ray images by placing them into t
 ### Capture  
 **Press `C` button**  
 This feature allows users to capture only the Region of Interest (ROI), where the X-ray image is aligned with the hand. This enables users to analyze the captured image later.  
-<img src="Figs/overlay.png" alt="overlay">
+<img src="Outputs/Overlay_2025-03-06_16:51:37.png" alt="overlay" height=300>
 
 ### 1-Finger Shortcut  
 **Raise the left hand with the index finger extended**  
