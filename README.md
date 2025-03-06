@@ -21,6 +21,9 @@ source xaray/bin/activate
 # Install all requirements necessary module and dependencies for this project 
 pip3 install -r requirements.txt
 ```
+## Input
+This project allows users to input their raw X-ray images by placing them into the `Input` folder. The project will automatically preprocess the images.  
+<img src="Input/x-ray.png" alt="x-ray">
 
 ## Features  
 
