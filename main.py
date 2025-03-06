@@ -36,7 +36,7 @@ SKELETON_LABEL = {
     "PP": "Proximal Phalanx",
     "ME": "Metacarpal",
 }
-FINGURE_LABEL = {"T": "Thumb", "I": "Index", "M": "Middle", "R": "Ring", "P": "Pinky"}
+FINGER_LABEL = {"T": "Thumb", "I": "Index", "M": "Middle", "R": "Ring", "P": "Pinky"}
 
 
 def CLAHE(xray: np.ndarray) -> np.ndarray:
@@ -91,7 +91,7 @@ def extract_name(bn: str) -> str:
     elif bn == "":
         return ""
     else:
-        return FINGURE_LABEL[bn[0]] + " " + SKELETON_LABEL[bn[1:3]]
+        return FINGER_LABEL[bn[0]] + " " + SKELETON_LABEL[bn[1:3]]
 
 
 def main():
